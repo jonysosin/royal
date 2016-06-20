@@ -67,6 +67,7 @@ body {
 	font-weight:normal;
 	color:#888888;
 	margin:0;
+	overflow: hidden;
 }
 h2{
 	font-size: 34px;
