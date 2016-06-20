@@ -52,6 +52,12 @@ a, a:hover, a:active{ outline:0px !important}
   font-style: normal;
 }
 
+@font-face {
+	font-family: 'font-custom';
+	src: url('../fonts/font-black.ttf');
+	font-weight: bolder;
+}
+
 /* Primary Styles
 ---------------------------------*/
 body {
@@ -65,12 +71,12 @@ body {
 h2{
 	font-size:34px;
 	color:#222222;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'font-custom', sans-serif;
 	font-weight:700;
-	letter-spacing: -1px;
+	letter-spacing: 1px;
 	margin:0 0 15px 0;
 	text-align:center;
-	text-transform:uppercase;
+	/*text-transform:uppercase;*/
 }
 h3{
 	font-family: 'Montserrat', sans-serif;
@@ -98,11 +104,6 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/pw_maze_black_2X.png) left top repeat;
-	background: -webkit-linear-gradient(#ef0a6a, #17a589);
-	background: -o-linear-gradient(#ef0a6a, #17a589);
-	background: -moz-linear-gradient(#ef0a6a, #17a589);
-	background: linear-gradient(#ef0a6a, #17a589);
 	padding:280px 0;
 }
 .logo{
@@ -110,12 +111,12 @@ p{
 	margin:0 auto 35px;
 }
 .header h1{
-	font-family: 'Montserrat',sans-serif;
+	font-family: 'font-custom',sans-serif;
 	font-size:50px;
 	font-weight:400;
 	letter-spacing: -1px;
 	margin:0 0 22px 0 ;
-	color:#fff;
+	color: #2f2e2e;
 }
 
 .we-create{
@@ -127,9 +128,9 @@ p{
 }
 .we-create li{
 	display:inline-block;
-	font-family: 'Montserrat',sans-serif;
+	font-family: 'font-light',sans-serif;
 	font-size:14px;
-	color: #bcbcbc;
+	color: #6b6969;
 	text-transform: uppercase;
 	font-weight: 400;
 	margin:0 5px 0 0;
