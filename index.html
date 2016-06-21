@@ -49,22 +49,24 @@
         	<li>Importación, Exportación y Representaciones.</li>
         </ul>
     </div>
-</div>
 </header><!--header-end-->
 
 
 <nav class="main-nav-outer" id="test"><!--main-nav-start-->
 	<div class="container">
         <ul class="main-nav">
+            <li><a href="#header"><img src="img/small-logo.png" style="max-width: 70px;" alt=""></a></li>
             <li><a href="#service" id="service-pointer">Quiénes Somos</a></li>
             <li><a href="#mision">Misión</a></li>
             <li><a href="#historia">Historia</a></li>
             <li><a href="#Portfolio">Portfolio</a></li>
-            <li class="small-logo"><a href="#header"><img src="img/small-logo.png" style="max-width: 70px;" alt=""></a></li>
             <li><a href="#client">Clients</a></li>
             <li><a href="#team">Team</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
+        <div class="visible-xs img-logo-mobile" alt="">
+            <img src="img/small-logo.png" style="max-width: 70px;"  alt="">
+        </div>
         <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
     </div>
 </nav><!--main-nav-end-->
@@ -341,7 +343,12 @@ we were well fed and drunk all the time!</p>
         });
         setTimeout(function(){
             $('#service-pointer').trigger('click');
+
         }, 2100);
+        setTimeout(function(){
+            $('#header').remove();
+
+        }, 3000);
     });
 </script>
 
@@ -380,6 +387,7 @@ we were well fed and drunk all the time!</p>
 <script type="text/javascript">
 
 $(window).load(function(){
+    $('#header').height($(window).height());
   
   
   var $container = $('.portfolioContainer'),
