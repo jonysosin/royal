@@ -80,7 +80,7 @@ h2{
 	text-align: center;
 }
 h3{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'font-custom', sans-serif;
 	color:#222222;
 	font-size:16px;
 	margin:0 0 5px 0;
@@ -103,7 +103,12 @@ p{
 /* Header Styles
 ---------------------------------*/
 
-.header{
+.header {
+	text-align: center;
+	padding: 90px 0;
+}
+
+.header-flex{
 	text-align:center;
 	vertical-align: middle;
 	display: table;
@@ -123,7 +128,8 @@ p{
 	width:130px;
 	margin:0 auto 35px;
 }
-.header h1{
+.header h1,
+.header-flex h1{
 	font-family: 'font-custom',sans-serif;
 	font-size:50px;
 	font-weight:400;
@@ -213,7 +219,7 @@ color: #fff;
 	display:inline-block;
 	color:#222222;
 	text-transform:uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'font-custom', sans-serif;
 	text-decoration: none;
 	line-height:20px;
 	margin:17px 20px;
@@ -441,7 +447,7 @@ img {
 	font-size:28px;
 	line-height:41px;
 	margin:30px 0 10px;
-	font-family: ''Open Sans',sans-serif';
+	font-family: 'font-custom';
 	font-style: italic;
 }
 .client{
@@ -628,7 +634,7 @@ border: 2px solid #fff;
 	text-align:center;
 }
 .business-talking h2{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'font-custom', sans-serif;
 	font-weight:700;
 	padding:0;
 	margin:20px 0 70px;

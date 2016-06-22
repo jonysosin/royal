@@ -39,11 +39,22 @@
 </head>
 <body>
 <div style="overflow:hidden;" class="brand-container">
-<header class="header" id="header"><!--header-start-->
+<header class="header-flex" id="header-flex"><!--header-start-->
 	<div class="container-logo">
     	<figure class="logo animated fadeInDown delay-07s">
         	<a href="#"><img src="img/logo.png" alt=""></a>	
         </figure>	
+        <h1 class="animated fadeInDown delay-07s">Bienvenido a Royal Guemar Group</h1>
+        <ul class="we-create animated fadeInUp delay-1s">
+        	<li>Importación, Exportación y Representaciones.</li>
+        </ul>
+    </div>
+</header><!--header-end-->
+<header class="hidden-xs header js-init-hidden-late" id="header"><!--header-start-->
+	<div class="container">
+    	<figure class="logo animated fadeInDown delay-07s">
+        	<a href="#"><img src="img/logo.png" alt=""></a>
+        </figure>
         <h1 class="animated fadeInDown delay-07s">Bienvenido a Royal Guemar Group</h1>
         <ul class="we-create animated fadeInUp delay-1s">
         	<li>Importación, Exportación y Representaciones.</li>
@@ -338,9 +349,12 @@ we were well fed and drunk all the time!</p>
         });
         setTimeout(function(){
             var objsToShow = $('.js-init-hidden');
-            $('#header').addClass('js-init-hidden');
+            $('#header-flex').addClass('js-init-hidden');
             objsToShow.removeClass('js-init-hidden');
-        }, 3100);
+        }, 2100);
+        setTimeout(function(){
+            $('.js-init-hidden-late').removeClass('js-init-hidden-late');
+        }, 2100);
     });
 </script>
 
@@ -379,7 +393,7 @@ we were well fed and drunk all the time!</p>
 <script type="text/javascript">
 
 $(window).load(function(){
-    $('#header').height($(window).height());
+    $('#header-flex').height($(window).height());
   
   
   var $container = $('.portfolioContainer'),
