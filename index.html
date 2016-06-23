@@ -49,7 +49,7 @@
         </ul>
     </div>
 </header><!--header-end-->
-<header class="hidden-xs header" id="header"><!--header-start-->
+<header class="hidden-xs header animated fadeInUp delay-12s" id="header"><!--header-start-->
 	<div class="container">
     	<figure class="logo animated fadeInDown delay-07s">
         	<a href="#"><img src="img/logo.png" alt=""></a>
@@ -344,14 +344,11 @@ we were well fed and drunk all the time!</p>
             $('.main-nav').slideToggle();
             return false    
             
-        });
+        })
+        
         setTimeout(function(){
-            var objsToShow = $('.js-init-hidden');
-            $('#header-flex').addClass('js-init-hidden');
-            objsToShow.removeClass('js-init-hidden');
-        }, 2100);
-        setTimeout(function(){
-            $('.js-init-hidden-late').removeClass('js-init-hidden-late');
+            $('.js-init-hidden').removeClass('js-init-hidden');
+			$('#header-flex').addClass('js-init-hidden');
         }, 2100);
     });
 </script>

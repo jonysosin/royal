@@ -109,20 +109,21 @@ p{
 }
 
 .header-flex{
-	text-align:center;
-	vertical-align: middle;
-	display: table;
-	background: #fff;
-	z-index: 100000;
-	position: absolute;
-	-webkit-transition: all 2s;
-	-moz-transition: all 2s;
-	-ms-transition: all 2s;
-	-o-transition: all 2s;
-	transition: all 2s;
-	width: 100%;
-	padding: 0;
-	margin: 0;
+    display: table;
+    text-align: center;
+    background: #fff;
+    z-index: 100000;
+    position: absolute;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 2s;
+    padding: 0;
+    bottom: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
 }
 .logo{
 	width:130px;
@@ -894,7 +895,8 @@ border: 2px solid #fff;
 	margin-top: 4px;
 }
 
-.js-init-hidden {
+.js-init-hidden,
+.header-fade {
 	opacity: 0;
 	-webkit-transition: all 2s;
 	-moz-transition: all 2s;
