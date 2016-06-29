@@ -1,4 +1,8 @@
 @charset "utf-8";
+
+h1 { font-size: 1.6875em !important; }
+h2 { font-size: 1.375em !important; }
+h3 { font-size: 1.125em !important; }
 /*
  Knight Bootstrap theme by BootstrapTaste.com
  Theme URI: http://bootstraptaste.com/knight-free-bootstrap-theme/
@@ -70,7 +74,7 @@ body {
 	overflow-x: hidden;
 }
 h2{
-	font-size: 34px;
+	font-size: 34px !important;
 	color: #ef0a6b;
 	font-family: 'font-custom', sans-serif;
 	font-weight: 700;
@@ -80,7 +84,7 @@ h2{
 	text-align: center;
 }
 h3{
-	font-family: 'font-custom', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color:#222222;
 	font-size:16px;
 	margin:0 0 5px 0;
@@ -148,7 +152,7 @@ p{
 }
 .we-create li{
 	display:inline-block;
-	font-family: 'font-light',sans-serif;
+	font-family: 'font-custom',sans-serif;
 	font-size:14px;
 	color: #6b6969;
 	text-transform: uppercase;
@@ -227,6 +231,21 @@ color: #fff;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.main-nav li a.active {
+	color: #bbd953;
+}
+
+.main-nav li a.active:after {
+	content: '';
+	display: block;
+	border-bottom: 3px solid #ef0a6b;
+	width: 0;
+	right: 0;
+	-webkit-transition: 1s ease;
+	transition: 1s ease;
+	width: 100%;
 }
 
 .main-nav li a:hover{ 
@@ -369,7 +388,7 @@ color: #fff;
 	color:#222222;
 	border-radius:4px;
 	text-transform:uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'font-custom', sans-serif;
 	background:#f7f7f7;
 	margin-bottom:5px;
 	transition:all 0.3s ease-in-out;
@@ -910,4 +929,10 @@ border: 2px solid #fff;
 	vertical-align: middle;
 	text-align: center;
 	display: table-cell;
+}
+
+
+
+.txt-desc {
+	margin-top: 150px;
 }
