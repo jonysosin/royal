@@ -75,12 +75,12 @@ body {
 }
 h2{
 	font-size: 34px !important;
-	color: #ef0a6b;
+	color: #fafafa;
 	font-family: 'font-custom', sans-serif;
 	font-weight: 700;
 	letter-spacing: 1px;
 	margin: 0 0 15px 0;
-	text-shadow: 1px 1px #ffe201;
+	text-shadow: 1px 3px 23px #ef0a6b;
 	text-align: center;
 }
 h3{
@@ -264,7 +264,7 @@ color: #fff;
 }
 
 .main-section{
-	padding:90px 0 110px;
+	padding: 150px 0 150px;
 	-webkit-transition: all 2s;
 	-moz-transition: all 2s;
 	-ms-transition: all 2s;
@@ -931,8 +931,21 @@ border: 2px solid #fff;
 	display: table-cell;
 }
 
-
-
 .txt-desc {
 	margin-top: 150px;
+	font-size: 20px;
+	font-family: 'font-custom';
+	color: #fff;
+}
+
+#service {
+	background: #17a58a;
+}
+
+#mision {
+	background: #bbd953;
+}
+
+#historia {
+	background: #ffe200;
 }
