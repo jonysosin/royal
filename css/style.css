@@ -915,7 +915,7 @@ border: 2px solid #fff;
 }
 
 .js-init-hidden,
-.header-fade {
+.header-fade { 
 	opacity: 0;
 	-webkit-transition: all 2s;
 	-moz-transition: all 2s;
@@ -934,7 +934,7 @@ border: 2px solid #fff;
 .txt-desc {
 	margin-top: 150px;
 	font-size: 20px;
-	font-family: 'font-custom';
+	font-family: 'Montserrat', sans-serif;
 	color: #fff;
 }
 
