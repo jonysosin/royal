@@ -80,7 +80,7 @@ h2{
 	font-weight: 700;
 	letter-spacing: 1px;
 	margin: 0 0 15px 0;
-	text-shadow: 1px 3px 23px #ef0a6b;
+	text-shadow: 1px 3px 23px #000;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -647,8 +647,6 @@ border: 2px solid #fff;
 /* Talk Business
 ---------------------------------*/
 .business-talking{
-	background:url(../img/section-bg2.jpg) top center no-repeat;
-	background-size:cover;
 	margin-bottom: 50px;
 	padding:60px 0 10px;
 	text-align:center;
