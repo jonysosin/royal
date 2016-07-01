@@ -2,7 +2,8 @@
 
 h1 { font-size: 1.6875em !important; }
 h2 { font-size: 1.375em !important; }
-h3 { font-size: 1.125em !important; }
+h3 { font-size: 1.125em !important;font-family: 'Montserrat', sans-serif !important;color: #fff !important;text-transform: uppercase;font-weight: 800;}
+.isotope .isotope-item p{font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-style: italic; color: #fff !important;}
 /*
  Knight Bootstrap theme by BootstrapTaste.com
  Theme URI: http://bootstraptaste.com/knight-free-bootstrap-theme/
