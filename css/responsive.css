@@ -40,6 +40,10 @@
 	.Portfolio-box{ height:250px;}*/
 	section.main-section{padding-top: 150px !important;}
 	
+	h2,
+	p.txt-desc {
+		padding: 30px !important;
+	}
 	 
 	
 }
@@ -85,8 +89,9 @@
 	.Portfolio-nav li{ display:block;}
 	
 	/*Custom*/
-	section.main-section {
-		padding: 40px;
+	h2,
+	p.txt-desc {
+		padding: 30px !important;
 	}
 }
 
@@ -99,6 +104,11 @@
 	.c-logo-part ul li{ display:block;}
 	.Portfolio-box{  max-width:300px !important; width:96.4% !important; margin:0 !important}
 	.Portfolio-box img { max-width:100%;}
-	.portfolioContainer{ width:280px !important; margin:0 auto !important } 
-	
+	.portfolioContainer{ width:100% !important; margin:0 auto !important }
+	h2	{font-size: 22px !important;}
+	.c-logo-part ul li {margin: 0 !important;}
+	h2,
+	p.txt-desc {
+		padding: 30px !important;
+	}
 }
