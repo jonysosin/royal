@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, maximum-scale=1">
 
 <title>Royal Guemar Group</title>
-<link rel="icon" href="img/small-logo.png" type="image/png">
-<link rel="shortcut icon" href="img/small-logo.png" type="image/png">
+<link rel="icon" href="img/logo.png" type="image/png">
+<link rel="shortcut icon" href="img/logo.png" type="image/png">
 
 <link href='fonts/font-black.ttf' rel='stylesheet' type='text/css'>
 <link href='fonts/font-light.ttf' rel='stylesheet' type='text/css'>
@@ -64,7 +64,7 @@
 <nav class="main-nav-outer js-init-hidden" id="test"><!--main-nav-start-->
 	<div class="container">
         <ul class="main-nav">
-            <li><a href="#header"><img src="img/small-logo.png" style="max-width: 70px;" alt=""></a></li>
+            <li><a href="#header"><img src="img/logo.png" style="max-width: 70px;" alt=""></a></li>
             <li><a href="#service" id="service-pointer">Quiénes Somos</a></li>
             <li><a href="#mision">Misión</a></li>
             <li><a href="#historia">Historia</a></li>
@@ -73,7 +73,7 @@
             <li><a href="#contact">Contacto</a></li>
         </ul>
         <div class="visible-xs img-logo-mobile" alt="">
-            <img src="img/small-logo.png"  alt="">
+            <img src="img/logo.png"  alt="">
         </div>
         <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
     </div>
@@ -105,47 +105,40 @@
 <section class="main-section paddind js-init-hidden js-section" id="Portfolio"><!--main-section-start-->
 	<div class="container">
     	<h2>Portfolio</h2>
-      <div class="portfolioFilter">
-        <ul class="Portfolio-nav wow fadeIn delay-02s">
-        	<li><a href="#" data-filter="*" class="current" >All</a></li>
-            <li><a href="#" data-filter=".branding" >Branding</a></li>
-            <li><a href="#" data-filter=".webdesign" >Web design</a></li>
-            <li><a href="#" data-filter=".printdesign" >Print design</a></li>
-            <li><a href="#" data-filter=".photography" >Photography</a></li>
-        </ul>
-       </div> 
-        
 	</div>
     <div class="portfolioContainer wow fadeInUp delay-04s">
-            	<div class=" Portfolio-box printdesign">
-                	<a href="#"><img src="img/Portfolio-pic1.jpg" alt=""></a>	
-                	<h3>Foto Album</h3>
-                    <p>Print Design</p>
-                </div>
                 <div class="Portfolio-box webdesign">
-                	<a href="#"><img src="img/Portfolio-pic2.jpg" alt=""></a>	
-                	<h3>Luca Theme</h3>
-                    <p>Web Design</p>
+                	<img src="img/portfolio/chocolateB.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box branding">
-                	<a href="#"><img src="img/Portfolio-pic3.jpg" alt=""></a>	
-                	<h3>Uni Sans</h3>
-                    <p>Branding</p>
+                	<img src="img/portfolio/chocolateC.jpg" alt="">
+                </div>  
+                <div class=" Portfolio-box photography" >
+                	<img src="img/portfolio/fotoB.jpg" alt="">
                 </div>
                 <div class=" Portfolio-box photography" >
-                	<a href="#"><img src="img/Portfolio-pic4.jpg" alt=""></a>	
-                	<h3>Vinyl Record</h3>
-                    <p>Photography</p>
+                	<img src="img/portfolio/fotoC.jpg" alt="">
                 </div>
-                <div class=" Portfolio-box branding">
-                	<a href="#"><img src="img/Portfolio-pic5.jpg" alt=""></a>	
-                	<h3>Hipster</h3>
-                    <p>Branding</p>
+                <div class=" Portfolio-box photography" >
+                	<img src="img/portfolio/fotoD.jpg" alt="">
                 </div>
-                <div class=" Portfolio-box photography">
-                	<a href="#"><img src="img/Portfolio-pic6.jpg" alt=""></a>	
-                	<h3>Windmills</h3>
-                    <p>Photography</p>
+                <div class=" Portfolio-box photography" >
+                	<img src="img/portfolio/fotoF.jpg" alt="">
+                </div>
+                <div class=" Portfolio-box photography" >
+                	<img src="img/portfolio/fotoG.jpg" alt="">
+                </div>
+                <div class=" Portfolio-box photography" >
+                	<img src="img/portfolio/hongo.jpg" alt="">
+                </div>
+                <div class=" Portfolio-box photography" >
+                	<img src="img/portfolio/tazas.jpg" alt="">
+                </div>
+                <div class=" Portfolio-box photography" >
+                	<img src="img/portfolio/tazasB.jpg" alt="">
+                </div>
+                <div class=" Portfolio-box photography" >
+                	<img src="img/portfolio/tazasC.jpg" alt="">
                 </div>
     </div>
 </section><!--Portfolio-->
@@ -330,17 +323,17 @@ $(window).load(function(){
     }
     
   }).smartresize(); // trigger resize to set container width
-  $('.portfolioFilter a').click(function(){
-        $('.portfolioFilter .current').removeClass('current');
-        $(this).addClass('current');
- 
-        var selector = $(this).attr('data-filter');
-        $container.isotope({
-			
-            filter: selector,
-         });
-         return false;
-    });
+//  $('.portfolioFilter a').click(function(){
+//        $('.portfolioFilter .current').removeClass('current');
+//        $(this).addClass('current');
+//
+//        var selector = $(this).attr('data-filter');
+//        $container.isotope({
+//
+//            filter: selector,
+//         });
+//         return false;
+//    });
   
 });
 

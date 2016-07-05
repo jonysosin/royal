@@ -679,6 +679,7 @@ border: 2px solid #fff;
 	padding-left:0;
 }
 .contact-info-box h3{
+	color: #000 !important;
 	font-size: 15px;
 	font-weight: 400;
 	float: left;
@@ -914,7 +915,7 @@ border: 2px solid #fff;
 
 
 .img-logo-mobile img{
-	max-width: 60px;
+	max-width: 53px;
 	margin-top: 4px;
 }
 
@@ -965,14 +966,14 @@ border: 2px solid #fff;
 }
 
 .marcas .marca.solam {
-	background: url("../img/marcas/SOLAM_logo.jpg");
+	background: url("../img/marcas/SOLAM_logo.png");
 }
 .marcas .marca.fengyue {
-	background: url("../img/marcas/logo.png");
+	background: url("../img/marcas/Fengyue.png");
 }
 .marcas .marca.dakumar {
 	background: url("../img/marcas/Dakumar.jpg");
 }
 .marcas .marca.fylor {
-	background: url("../img/marcas/fylor.jpg");
+	background: url("../img/marcas/fyflor.png");
 }
