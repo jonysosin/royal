@@ -425,7 +425,6 @@ color: #fff;
 }
 
 .Portfolio-box img:hover {
-	border-radius: 20px;
 	-webkit-filter: grayscale(100%);
 	-webkit-transition: all 0.3s ease-in-out;
 }
