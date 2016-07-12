@@ -10,7 +10,8 @@
 	.c-logo-part ul li{ margin:0 15px;}
 	.form{ margin:0 0 0 20px}
 	.main-nav{ display:block !important; }
-	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */ 
+	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */
+	.container-marcas {width: 100%;}
 	
 }	
    

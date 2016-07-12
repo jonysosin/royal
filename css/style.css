@@ -953,7 +953,7 @@ border: 2px solid #fff;
 }
 
 #historia {
-	background: #ffe200;
+	background: #e2a807;
 }
 #Portfolio {
 	background-color: #ed0c6d;
@@ -966,6 +966,10 @@ border: 2px solid #fff;
 	height: 200px;
 }
 
+.marcas .marca.royal {
+	max-width: 75px;
+	background: url("../img/logo-simple.png");
+}
 .marcas .marca.solam {
 	background: url("../img/marcas/SOLAM_logo.png");
 }
