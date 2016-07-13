@@ -982,3 +982,27 @@ border: 2px solid #fff;
 .marcas .marca.fylor {
 	background: url("../img/marcas/fyflor.png");
 }
+
+.prev-btn,
+.next-btn
+{
+	color: #000;
+	font-size: 40px;
+	position: absolute;
+	top: 90px;
+	opacity: 0.2;
+}
+.prev-btn:hover,
+.next-btn:hover
+{
+	opacity: 1;
+}
+.prev-btn
+{
+	left: 0;
+}
+
+.next-btn
+{
+	right: 0;
+}
