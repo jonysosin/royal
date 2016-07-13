@@ -421,7 +421,11 @@ color: #fff;
 	margin-bottom:25px;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
-	-webkit-transition:all 0.3s ease-in-out;	
+	-webkit-transition:all 0.3s ease-in-out;
+
+	max-width: 100%;
+	height: 350px;
+	padding-bottom: 30px;
 }
 
 .Portfolio-box img:hover {
